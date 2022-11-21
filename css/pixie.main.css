@@ -1,0 +1,300 @@
+/*common*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  	font-family: 'Open Sans', sans-serif;
+}
+
+.custom-container {
+    margin: 0px 120px;
+}
+
+.custom-section-top {
+    padding-top: 100px;
+}
+
+.custom-section-bottom {
+    padding-bottom: 100px;
+}
+
+.custom-section {
+    padding: 100px 0px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 68px;
+    color: #2B3F60;
+}
+h2{
+	font-weight: 700;
+	font-size: 39px;
+	line-height: 47px;
+	color: #000000;
+}
+h2.white {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #132D54;
+    margin-bottom: 50px;
+}
+
+p.white {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #FDFEFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #F36B7F !important;
+}
+
+.btn-border a {
+    border: 2px solid #F36B7F;
+    border-radius: 15px;
+    padding: 0px 30px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #F36B7F !important;
+}
+
+.btn-border a:hover {
+    background-color: #F36B7F;
+    color: #000000 !important;
+    transition: .5s all ease-in-out;
+}
+
+.btn-fill a {
+    background: #F36B7F;
+    border-radius: 25px;
+    padding: 9px 38px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: 2px solid transparent;
+}
+
+.btn-fill a:hover {
+    background: transparent;
+    border: 2px solid #F36B7F;
+    transition: all .5s ease-in;
+}
+
+
+/*header start*/
+header .navbar .logo {
+    display: inline-block;
+    width: 30%;
+}
+
+header .navbar .nav {
+    display: inline-block;
+    width: 70%;
+    margin-left: -5px;
+}
+
+header .navbar .nav ul {
+    float: right;
+}
+
+header .navbar .nav ul li:not(:last-child) {
+    margin-right: 66px;
+}
+
+header .navbar .nav ul li:nth-child(4) {
+    margin-right: 35px;
+}
+
+
+header .navbar {
+    padding: 46px 0px;
+}
+
+
+/*header end*/
+
+/*banner start*/
+.banner .custom-container {
+    background-image: url('../image/banner.png');
+    height: 439px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    position: relative;
+    margin-top: 72px;
+}
+
+.banner .custom-container .contant {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 30%;
+}
+
+.banner .custom-container .contant h1 {
+    margin-bottom: 24px;
+}
+
+/*banner end*/
+/*web-logo start*/
+.owl-carousel .owl-item img{
+    width: auto !important;
+}
+.web-logo .item img{
+    margin: 0 auto;
+    opacity: .3;
+}
+.web-logo .item:hover img{
+    opacity: 1;
+}
+
+/*web-logo end*/
+/*apk start*/
+.apk {
+    background: #F36B7F;
+    height: 674px;
+    position: relative;
+}
+
+.apk .custom-container {
+    padding-top: 64px;
+}
+
+.apk .custom-container .contant {
+    width: 28%;
+}
+
+.apk .custom-container .contant h2 {
+    margin-bottom: 16px;
+}
+.apk .play-btn {
+	position: relative;
+	margin-left: -16px;
+	left: 0px;
+	transition: left .5s ease;	
+}
+.apk .play-btn:hover{
+	left: 20px;
+}
+.mobile-img{
+	position: absolute;
+	bottom: 0px;
+	right: 127px;
+}
+/*apk end*/
+/*service start*/
+.service{
+	background: #F5F7FD;
+}
+.service .title{
+	text-align: center;
+	margin-bottom: 111px;
+}
+.service .item{
+    padding-top: 86px;
+}
+.service .box{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	padding:108px 29px 0px 29px;
+	background-color: #fff;
+	box-shadow: 10px 18px 30px 5px rgba(237, 240, 249, 0.7);
+	border-radius: 24px;
+	top: 0px;
+	transition: top .5s ease;
+}
+.service .box:hover{
+	top: -20px;
+}
+.service .box img{
+	position: absolute;
+	top: -65px;
+	left: 0px;
+	right: 0px;
+	margin: 0 auto;
+}
+.service .box p{
+	text-align: center;
+	margin-bottom: 34px;
+}
+
+/*service end*/
+/*coustomer start*/
+.customer .contant{
+	width: 30%;
+	margin-left: 143px;
+}
+.customer{
+	position: relative;
+}
+.customer h2{
+    margin-bottom: 13px;
+}
+.customer .model-img{
+	position: absolute;
+	bottom: 0px;
+	right: 126px;
+}
+
+/*coustomer end*/
+/*footer start*/
+footer{
+	background: #82B5A5;
+	border-radius: 150px 0px 0px 0px;
+	padding: 40px 0px;
+}
+footer .copyright{
+	display: inline-block;
+	float: right;
+}
+footer p{
+	margin-bottom: 0px;
+	color: #fff;
+}
+footer .footer-logo{
+	display: inline-block;
+}
+/*footer end*/
